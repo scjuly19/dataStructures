@@ -19,7 +19,7 @@
          curr.next=new Node(curr.val,next,null);
          curr=next;
      }
-     let cloneHead=head;
+     let cloneHead=head.next;
      curr=head;
      //Copy random pntrs
      while(curr){
