@@ -1,5 +1,6 @@
 /**Binary search is also called divide and conquer.
- * Big-O: O(n)
+ * Required an array to be sorted.
+ * Big-O: O(log n)
  * We keep splitting the array in half and change the lower and upper range till we find our element.
  * Return the index at which element is found else return null.
  */
