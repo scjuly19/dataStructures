@@ -10,10 +10,10 @@ function binarySearch(arr,searchItem){
     while(lowerBound<=upperBound){
         let mid=Math.floor((lowerBound+upperBound)/2);
         let possibleGuess = arr[mid];
-        if(possibleGuess===item){
+        if(possibleGuess===searchItem){
             return mid
         }
-        if(possibleGuess<item){
+        if(possibleGuess<searchItem){
             upperBound=mid-1
         }
         else{
